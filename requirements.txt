@@ -1,0 +1,14 @@
+fastapi 
+uvicorn 
+supabase
+pyjwt
+psycopg[binary]
+requests
+dotenv
+langchain
+langchain-groq
+langgraph
+langchain-core
+structlog
+pydantic_settings
+git-filter-repo

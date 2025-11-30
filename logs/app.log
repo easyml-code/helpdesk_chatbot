@@ -1,0 +1,178 @@
+2025-11-30 02:46:23,183 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 02:46:23,218 ERROR app_logger client:163 - Unexpected error in run_query: 'Settings' object has no attribute 'POSTGRES_DB'
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 130, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 75, in _connect_and_exec
+    dbname=settings.POSTGRES_DB,
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Settings' object has no attribute 'POSTGRES_DB'
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 130, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 75, in _connect_and_exec
+    dbname=settings.POSTGRES_DB,
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Settings' object has no attribute 'POSTGRES_DB'
+2025-11-30 02:48:26,783 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 02:48:27,291 WARNING app_logger client:135 - DB OperationalError: connection failed: connection to server at "2406:da1a:6b0:f61c:675a:f590:628e:cce8", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+2025-11-30 02:48:27,291 INFO app_logger client:141 - Attempting to refresh access token with refresh_token
+2025-11-30 02:48:27,442 INFO app_logger utils:29 - Refreshed tokens for session (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 02:48:27,715 ERROR app_logger client:154 - DB auth still failing after token refresh: connection failed: connection to server at "2406:da1a:6b0:f61c:675a:f590:628e:cce8", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 130, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 72, in _connect_and_exec
+    conn = psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/connection.py", line 120, in connect
+    raise last_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "2406:da1a:6b0:f61c:675a:f590:628e:cce8", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 150, in run_query
+    result = await run_in_threadpool(_connect_and_exec, new_access)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 72, in _connect_and_exec
+    conn = psycopg.connect(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/connection.py", line 120, in connect
+    raise last_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "2406:da1a:6b0:f61c:675a:f590:628e:cce8", port 5432 failed: FATAL:  password authentication failed for user "postgres"
+2025-11-30 03:01:21,662 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 03:01:57,283 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 03:03:47,778 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 03:03:47,779 ERROR app_logger client:172 - Unexpected error in run_query: run_query.<locals>._connect_and_exec() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 139, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: run_query.<locals>._connect_and_exec() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 139, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: run_query.<locals>._connect_and_exec() takes 0 positional arguments but 1 was given
+2025-11-30 03:12:38,595 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 03:12:39,112 ERROR app_logger client:174 - Unexpected error in run_query: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 141, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 108, in _connect_and_exec
+    sub_val = pg_escape(str(decoded_claims["sub"]))
+                            ~~~~~~~~~~~~~~^^^^^^^
+TypeError: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 141, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 108, in _connect_and_exec
+    sub_val = pg_escape(str(decoded_claims["sub"]))
+                            ~~~~~~~~~~~~~~^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2025-11-30 03:13:35,686 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 03:13:36,250 INFO app_logger client:128 - run_query success (initial token) rows=5
+2025-11-30 03:14:48,781 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 03:14:49,341 INFO app_logger client:120 - run_query success (initial token) rows=1
+2025-11-30 22:13:43,177 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-11-30 22:13:43,615 INFO app_logger client:122 - run_query success (initial token) rows=1
