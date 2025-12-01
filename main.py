@@ -1,22 +1,46 @@
-from database.client import get_access_token, run_query
-from config import settings
-from fastapi import HTTPException
-from supabase import create_client, Client
-import jwt
-import os
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from api.routes import router
+from logs.log import logger
+import uvicorn
+
+
+app = FastAPI(
+    title="Vendor HelpDesk Agent",
+    description="Backend API",
+    version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Configure appropriately for production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(router, prefix="/api")
+
+
+@app.get("/")
+async def root():
+    return {
+        "message": "Vendor HelpDesk Agent is okay!",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy"}
+
 
 if __name__ == "__main__":
-    import asyncio
-
-    async def test():
-        email = settings.VENDOR_EMAIL
-        password = settings.VENDOR_PASSWORD
-        query = "select count(*) from invoices;"
-
-        access_token, refresh_token = await get_access_token(email, password)
-
-        rows = await run_query(query, access_token, refresh_token)
-        print("\n\nQuery Result:", rows)
-        print("Database client module test completed.")
-
-    asyncio.run(test())
+    logger.info("Starting Vendor HelpDesk Agent API server...")
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
+    )

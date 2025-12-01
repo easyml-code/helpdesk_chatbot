@@ -176,3 +176,1280 @@ TypeError: string indices must be integers, not 'str'
 2025-11-30 03:14:49,341 INFO app_logger client:120 - run_query success (initial token) rows=1
 2025-11-30 22:13:43,177 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
 2025-11-30 22:13:43,615 INFO app_logger client:122 - run_query success (initial token) rows=1
+2025-12-01 00:49:29,778 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-12-01 00:49:30,185 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:38:56,259 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:38:56,281 INFO app_logger main:40 - Starting Vendor HelpDesk Agent API server...
+2025-12-01 19:38:56,583 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:39:53,942 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-12-01 19:41:40,079 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:41:40,104 INFO app_logger main:40 - Starting Vendor HelpDesk Agent API server...
+2025-12-01 19:41:40,397 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:41:59,636 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:43:56,164 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:43:56,184 INFO app_logger main:40 - Starting Vendor HelpDesk Agent API server...
+2025-12-01 19:43:56,470 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:45:20,019 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-12-01 19:45:20,614 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:45:20,614 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:45:29,490 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:45:29,998 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:45:29,998 INFO app_logger chat_manager:86 - Created new chat chat_175ed477b6324b07 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:45:30,000 ERROR app_logger routes:134 - Chat error: process_input() missing 1 required positional argument: 'config'
+2025-12-01 19:47:18,306 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:47:20,167 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:47:21,523 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:47:24,732 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:47:25,254 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:47:25,254 INFO app_logger chat_manager:86 - Created new chat chat_96a2cd9e14f24a26 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:47:25,256 ERROR app_logger routes:134 - Chat error: process_input() missing 1 required positional argument: 'config'
+2025-12-01 19:47:29,749 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:47:30,134 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:47:30,134 INFO app_logger chat_manager:86 - Created new chat chat_890eaabd311b4298 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:47:30,136 ERROR app_logger routes:134 - Chat error: process_input() missing 1 required positional argument: 'config'
+2025-12-01 19:47:51,265 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:47:52,120 INFO app_logger graph:42 - Agent graph created successfully
+2025-12-01 19:49:58,025 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:50:00,782 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:50:15,279 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:50:18,051 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:50:51,667 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:50:56,243 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:51:03,156 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:51:05,026 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:51:15,724 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:51:15,724 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:51:19,334 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:51:19,829 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:51:19,830 INFO app_logger chat_manager:86 - Created new chat chat_36110371daa644a3 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:51:20,353 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:51:20,353 INFO app_logger nodes:31 - Processing input for chat chat_36110371daa644a3
+2025-12-01 19:51:20,462 ERROR app_logger routes:134 - Chat error: Logger._log() got an unexpected keyword argument 'model'
+2025-12-01 19:58:58,976 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:59:00,745 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 19:59:06,758 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:07,140 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:59:07,140 INFO app_logger chat_manager:86 - Created new chat chat_7c04f49803854165 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:59:07,520 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:07,520 INFO app_logger nodes:31 - Processing input for chat chat_7c04f49803854165
+2025-12-01 19:59:07,588 INFO app_logger llm:23 - llm_initialized - model=openai/gpt-oss-120b, provider=groq
+2025-12-01 19:59:07,878 INFO app_logger chat_manager:143 - Added pending message for chat chat_7c04f49803854165, queue size: 1
+2025-12-01 19:59:07,878 INFO app_logger chat_manager:143 - Added pending message for chat chat_7c04f49803854165, queue size: 2
+2025-12-01 19:59:07,878 INFO app_logger nodes:80 - Generated response for chat chat_7c04f49803854165, tokens: 14
+2025-12-01 19:59:08,275 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 19:59:08,277 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 19:59:08,277 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_7c04f49803854165: 500: Unexpected error executing query
+2025-12-01 19:59:08,277 ERROR app_logger nodes:106 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 19:59:08,659 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:08,659 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:59:20,401 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:20,899 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:59:20,899 INFO app_logger chat_manager:86 - Created new chat chat_41b51001f2ad4b55 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:59:21,286 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:21,286 INFO app_logger nodes:31 - Processing input for chat chat_41b51001f2ad4b55
+2025-12-01 19:59:21,537 INFO app_logger chat_manager:143 - Added pending message for chat chat_41b51001f2ad4b55, queue size: 1
+2025-12-01 19:59:21,537 INFO app_logger chat_manager:143 - Added pending message for chat chat_41b51001f2ad4b55, queue size: 2
+2025-12-01 19:59:21,537 INFO app_logger nodes:80 - Generated response for chat chat_41b51001f2ad4b55, tokens: 22
+2025-12-01 19:59:22,049 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 19:59:22,052 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 19:59:22,054 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_41b51001f2ad4b55: 500: Unexpected error executing query
+2025-12-01 19:59:22,055 ERROR app_logger nodes:106 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 19:59:22,586 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:22,586 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:59:38,178 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:38,695 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 19:59:38,696 INFO app_logger chat_manager:86 - Created new chat chat_eb40121e4fef4f59 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 19:59:39,218 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:39,218 INFO app_logger nodes:31 - Processing input for chat chat_eb40121e4fef4f59
+2025-12-01 19:59:39,510 INFO app_logger chat_manager:143 - Added pending message for chat chat_eb40121e4fef4f59, queue size: 1
+2025-12-01 19:59:39,510 INFO app_logger chat_manager:143 - Added pending message for chat chat_eb40121e4fef4f59, queue size: 2
+2025-12-01 19:59:39,510 INFO app_logger nodes:80 - Generated response for chat chat_eb40121e4fef4f59, tokens: 50
+2025-12-01 19:59:39,887 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 19:59:39,887 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 19:59:39,888 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_eb40121e4fef4f59: 500: Unexpected error executing query
+2025-12-01 19:59:39,888 ERROR app_logger nodes:106 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 19:59:40,383 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 19:59:40,383 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:01:20,100 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:01:20,464 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:01:20,465 INFO app_logger chat_manager:86 - Created new chat chat_620d5efe30e14227 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:01:20,842 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:01:20,842 INFO app_logger nodes:31 - Processing input for chat chat_620d5efe30e14227
+2025-12-01 20:01:21,372 INFO app_logger chat_manager:143 - Added pending message for chat chat_620d5efe30e14227, queue size: 1
+2025-12-01 20:01:21,373 INFO app_logger chat_manager:143 - Added pending message for chat chat_620d5efe30e14227, queue size: 2
+2025-12-01 20:01:21,373 INFO app_logger nodes:80 - Generated response for chat chat_620d5efe30e14227, tokens: 22
+2025-12-01 20:01:21,871 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:01:21,874 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:01:21,876 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_620d5efe30e14227: 500: Unexpected error executing query
+2025-12-01 20:01:21,876 ERROR app_logger nodes:106 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:01:22,270 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:01:22,271 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:01:26,819 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:01:27,204 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:01:27,204 INFO app_logger chat_manager:86 - Created new chat chat_ffc04e1f9f0a4ca8 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:01:27,724 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:01:27,724 INFO app_logger nodes:31 - Processing input for chat chat_ffc04e1f9f0a4ca8
+2025-12-01 20:01:27,949 INFO app_logger chat_manager:143 - Added pending message for chat chat_ffc04e1f9f0a4ca8, queue size: 1
+2025-12-01 20:01:27,949 INFO app_logger chat_manager:143 - Added pending message for chat chat_ffc04e1f9f0a4ca8, queue size: 2
+2025-12-01 20:01:27,949 INFO app_logger nodes:80 - Generated response for chat chat_ffc04e1f9f0a4ca8, tokens: 16
+2025-12-01 20:01:28,332 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:01:28,336 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:01:28,337 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_ffc04e1f9f0a4ca8: 500: Unexpected error executing query
+2025-12-01 20:01:28,337 ERROR app_logger nodes:106 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:01:28,857 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:01:28,857 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:15:30,056 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:15:31,410 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:16:28,545 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:16:31,321 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:16:39,258 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:17:34,474 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:17:36,352 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:17:38,246 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:17:49,334 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:17:49,335 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:17:49,910 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:17:49,910 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:18:49,389 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-12-01 20:18:49,781 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:18:49,781 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:18:54,190 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:18:54,561 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:18:54,561 INFO app_logger chat_manager:86 - Created new chat chat_6e0c6ede9f9a4af9 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:18:55,057 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:18:55,057 INFO app_logger nodes:31 - Processing input for chat chat_6e0c6ede9f9a4af9
+2025-12-01 20:18:55,104 INFO app_logger llm:23 - llm_initialized - model=openai/gpt-oss-120b, provider=groq
+2025-12-01 20:18:55,485 INFO app_logger chat_manager:143 - Added pending message for chat chat_6e0c6ede9f9a4af9, queue size: 1
+2025-12-01 20:18:55,486 INFO app_logger chat_manager:143 - Added pending message for chat chat_6e0c6ede9f9a4af9, queue size: 2
+2025-12-01 20:18:55,486 INFO app_logger nodes:89 - Generated response for chat chat_6e0c6ede9f9a4af9, tokens: 10
+2025-12-01 20:18:56,017 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:18:56,019 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:18:56,020 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_6e0c6ede9f9a4af9: 500: Unexpected error executing query
+2025-12-01 20:18:56,020 ERROR app_logger nodes:170 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:18:56,376 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:18:56,377 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:18:56,377 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_6e0c6ede9f9a4af9: 500: Unexpected error executing query
+2025-12-01 20:18:56,377 ERROR app_logger routes:140 - Chat error: 500: Unexpected error executing query
+2025-12-01 20:19:21,582 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:36:50,338 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:36:53,101 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:37:05,366 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:37:08,643 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:37:09,995 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:37:11,857 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:37:25,471 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:37:25,835 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:37:25,836 INFO app_logger chat_manager:86 - Created new chat chat_ed9b05870b334f20 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:37:26,175 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:37:26,175 INFO app_logger nodes:31 - Processing input for chat chat_ed9b05870b334f20
+2025-12-01 20:37:26,230 INFO app_logger llm:23 - llm_initialized - model=openai/gpt-oss-120b, provider=groq
+2025-12-01 20:37:26,773 INFO app_logger chat_manager:143 - Added pending message for chat chat_ed9b05870b334f20, queue size: 1
+2025-12-01 20:37:26,773 INFO app_logger chat_manager:143 - Added pending message for chat chat_ed9b05870b334f20, queue size: 2
+2025-12-01 20:37:26,773 INFO app_logger nodes:89 - Generated response for chat chat_ed9b05870b334f20, tokens: 10
+2025-12-01 20:37:27,171 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:37:27,172 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:37:27,172 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_ed9b05870b334f20: 500: Unexpected error executing query
+2025-12-01 20:37:27,172 ERROR app_logger nodes:169 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:37:27,659 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:37:27,660 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:37:27,660 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_ed9b05870b334f20: 500: Unexpected error executing query
+2025-12-01 20:37:27,660 ERROR app_logger routes:140 - Chat error: 500: Unexpected error executing query
+2025-12-01 20:40:54,019 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:40:55,372 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:40:58,083 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:40:58,566 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:40:58,567 INFO app_logger chat_manager:86 - Created new chat chat_93fbcd4fe4c44d05 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:40:59,090 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:40:59,090 INFO app_logger nodes:31 - Processing input for chat chat_93fbcd4fe4c44d05
+2025-12-01 20:40:59,146 INFO app_logger llm:23 - llm_initialized - model=openai/gpt-oss-120b, provider=groq
+2025-12-01 20:40:59,528 INFO app_logger chat_manager:143 - Added pending message for chat chat_93fbcd4fe4c44d05, queue size: 1
+2025-12-01 20:40:59,528 INFO app_logger chat_manager:143 - Added pending message for chat chat_93fbcd4fe4c44d05, queue size: 2
+2025-12-01 20:40:59,528 INFO app_logger nodes:89 - Generated response for chat chat_93fbcd4fe4c44d05, tokens: 10
+2025-12-01 20:41:00,021 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:41:00,022 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:41:00,022 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_93fbcd4fe4c44d05: 500: Unexpected error executing query
+2025-12-01 20:41:00,022 ERROR app_logger nodes:169 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:41:00,399 ERROR app_logger client:112 - Error executing query: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+2025-12-01 20:41:00,401 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.InsufficientPrivilege: new row violates row-level security policy for table "messages"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:41:00,402 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_93fbcd4fe4c44d05: 500: Unexpected error executing query
+2025-12-01 20:41:00,402 ERROR app_logger routes:140 - Chat error: 500: Unexpected error executing query
+2025-12-01 20:48:17,231 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:48:17,610 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:48:17,611 INFO app_logger chat_manager:86 - Created new chat chat_c7af36621fc748ac for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:48:17,959 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:48:17,959 INFO app_logger nodes:31 - Processing input for chat chat_c7af36621fc748ac
+2025-12-01 20:48:18,319 INFO app_logger chat_manager:143 - Added pending message for chat chat_c7af36621fc748ac, queue size: 1
+2025-12-01 20:48:18,319 INFO app_logger chat_manager:143 - Added pending message for chat chat_c7af36621fc748ac, queue size: 2
+2025-12-01 20:48:18,320 INFO app_logger nodes:89 - Generated response for chat chat_c7af36621fc748ac, tokens: 10
+2025-12-01 20:48:18,812 ERROR app_logger client:112 - Error executing query: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+2025-12-01 20:48:18,813 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:48:18,813 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_c7af36621fc748ac: 500: Unexpected error executing query
+2025-12-01 20:48:18,813 ERROR app_logger nodes:169 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:48:19,330 ERROR app_logger client:112 - Error executing query: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+2025-12-01 20:48:19,331 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_c7af36621fc748ac) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:48:19,331 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_c7af36621fc748ac: 500: Unexpected error executing query
+2025-12-01 20:48:19,331 ERROR app_logger routes:140 - Chat error: 500: Unexpected error executing query
+2025-12-01 20:48:38,376 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:49:21,092 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:49:22,440 INFO app_logger graph:43 - Agent graph created successfully
+2025-12-01 20:49:38,579 INFO app_logger client:46 - User signed in: email=vikram.dev@pwc.com (uid=752110e1-4280-4bab-a935-2013305ed39b)
+2025-12-01 20:49:39,003 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:49:39,003 INFO app_logger chat_manager:239 - Loaded 0 chats for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:49:43,397 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:49:43,917 INFO app_logger client:123 - run_query success (initial token) rows=1
+2025-12-01 20:49:43,917 INFO app_logger chat_manager:86 - Created new chat chat_d45728212e024e08 for user 752110e1-4280-4bab-a935-2013305ed39b
+2025-12-01 20:49:44,421 INFO app_logger client:123 - run_query success (initial token) rows=0
+2025-12-01 20:49:44,421 INFO app_logger nodes:31 - Processing input for chat chat_d45728212e024e08
+2025-12-01 20:49:44,465 INFO app_logger llm:23 - llm_initialized - model=openai/gpt-oss-120b, provider=groq
+2025-12-01 20:49:45,010 INFO app_logger chat_manager:143 - Added pending message for chat chat_d45728212e024e08, queue size: 1
+2025-12-01 20:49:45,010 INFO app_logger chat_manager:143 - Added pending message for chat chat_d45728212e024e08, queue size: 2
+2025-12-01 20:49:45,011 INFO app_logger nodes:89 - Generated response for chat chat_d45728212e024e08, tokens: 10
+2025-12-01 20:49:45,540 ERROR app_logger client:112 - Error executing query: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+2025-12-01 20:49:45,547 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:49:45,548 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_d45728212e024e08: 500: Unexpected error executing query
+2025-12-01 20:49:45,548 ERROR app_logger nodes:169 - Error auto-saving messages: 500: Unexpected error executing query
+2025-12-01 20:49:45,902 ERROR app_logger client:112 - Error executing query: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+2025-12-01 20:49:45,903 ERROR app_logger client:155 - Unexpected error in run_query: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 97, in _connect_and_exec
+    cur.execute(query)
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/psycopg/cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ForeignKeyViolation: insert or update on table "messages" violates foreign key constraint "messages_chat_id_fkey"
+DETAIL:  Key (chat_id)=(chat_d45728212e024e08) is not present in table "chats".
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 122, in run_query
+    result = await run_in_threadpool(_connect_and_exec, access_token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/to_thread.py", line 61, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2525, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/venv/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vikram/Documents/projects/vendor_helpdesk_agent/database/client.py", line 113, in _connect_and_exec
+    raise HTTPException(status_code=500, detail="Error executing query")
+fastapi.exceptions.HTTPException: 500: Error executing query
+2025-12-01 20:49:45,904 ERROR app_logger chat_manager:208 - Error saving messages for chat chat_d45728212e024e08: 500: Unexpected error executing query
+2025-12-01 20:49:45,904 ERROR app_logger routes:140 - Chat error: 500: Unexpected error executing query
+2025-12-01 20:57:08,956 INFO app_logger graph:43 - Agent graph created successfully

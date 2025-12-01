@@ -12,3 +12,5 @@ langchain-core
 structlog
 pydantic_settings
 git-filter-repo
+streamlit
+watchdog

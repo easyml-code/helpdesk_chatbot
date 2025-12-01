@@ -3,7 +3,6 @@ from config import settings
 from typing import Optional
 from logs.log import logger
 
-
 class LLMClient:
     """LLM client wrapper for Groq"""
     
@@ -21,9 +20,7 @@ class LLMClient:
                 timeout=60.0,
                 max_retries=3,
             )
-            logger.info("llm_initialized", 
-                       model=settings.LLM_MODEl,
-                       provider="groq")
+            logger.info(f"llm_initialized - model={settings.LLM_MODEl}, provider=groq")
         
         return self._llm
 
