@@ -35,8 +35,8 @@ def create_agent_graph():
         "generate_response",
         route_after_llm,
         {
-            "tools": "tools",      # If tool calls exist
-            "save": "save_messages"  # If no tool calls
+            "tools": "tools",
+            "save": "save_messages"
         }
     )
     

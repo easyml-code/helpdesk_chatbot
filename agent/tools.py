@@ -1,27 +1,40 @@
 from langchain_core.tools import tool
-from langchain_core.runnables import RunnableConfig
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Annotated
 from logs.log import logger
+from langgraph.prebuilt import InjectedState
 
 @tool
-def get_invoice_details(query: str) -> List[Dict[str, Any]]:
+async def get_invoice_details(
+    query: str,
+    state: Annotated[dict, InjectedState]
+) -> List[Dict[str, Any]]:
     """Fetch invoice details from the database based on user query
     
     Args:
         query: PostgreSQL Select query or search parameters for invoice details
+        state: Injected state from LangGraph containing config
     
     Returns:
         List of invoice records
     """
     try:
-        from langchain_core.runnables import RunnablePassthrough
         from database.client import run_query
         
-        # Get config from context (passed automatically by ToolNode)
-        config = RunnablePassthrough.get_config()
-        access_token = config.get("configurable", {}).get("access_token")
+        print("\n\n\n\n\n", query, "\n\n\n\n\n")
+        # Get tokens from state (passed via config)
+        access_token = state.get("config", {}).get("access_token")
+        refresh_token = state.get("config", {}).get("refresh_token")
         
-        results = run_query(query=query, access_token=access_token)
+        if not access_token:
+            logger.error("❌ No access token found in state")
+            return []
+        
+        logger.info(f"🔍 Executing query: {query[:100]}...")
+        results = await run_query(
+            query=query, 
+            access_token=access_token,
+            refresh_token=refresh_token
+        )
         logger.info(f"✅ Fetched {len(results)} invoice records")
         return results
     except Exception as e:

@@ -93,83 +93,6 @@ async def generate_response(state: AgentState, config: RunnableConfig) -> AgentS
     
     return state
 
-async def generate_response1(state: AgentState, config: RunnableConfig) -> AgentState:
-    """Generate AI response using LLM"""
-    
-    llm = get_llm()
-    messages = state["messages"]
-    chat_id = state["chat_id"]
-    
-    # Build message list for LLM
-    full_messages = list(messages)
-    
-    # Add system message if first interaction
-    if len([m for m in messages if isinstance(m, (HumanMessage, AIMessage))]) == 1:
-        system_msg = SystemMessage(
-            content="You are a helpful AI assistant. Provide clear, accurate, and helpful responses."
-        )
-        full_messages = [system_msg] + full_messages
-    
-    try:
-        # Get user message (last HumanMessage)
-        user_msg_content = ""
-        for msg in reversed(messages):
-            if isinstance(msg, HumanMessage):
-                user_msg_content = msg.content
-                break
-        
-        # Invoke LLM
-        logger.info(f"🤖 Generating response for chat {chat_id}")
-        response = await llm.ainvoke(full_messages)
-        metadata = response.response_metadata["token_usage"]
-
-        input_tokens = metadata.get("prompt_tokens") or metadata.get("input_tokens")
-        output_tokens = metadata.get("completion_tokens") or metadata.get("output_tokens")
-        total_tokens = metadata["total_tokens"]
-        print("\n\n")
-        print("Input tokens:", input_tokens)
-        print("Output tokens:", output_tokens)
-        print("Total tokens:", total_tokens)
-        print("\n\n")
-        
-        # Add AI response to state
-        ai_message = AIMessage(content=response.content)
-        state["messages"].append(ai_message)
-        
-        ai_msg_content = response.content
-        
-        estimated_user_tokens = int(input_tokens)
-        estimated_ai_tokens = int(output_tokens)
-        total_estimated = estimated_user_tokens + estimated_ai_tokens
-        
-        state["total_tokens"] = state.get("total_tokens", 0) + total_estimated
-        
-        # Add messages to CACHE ONLY (not DB yet)
-        chat_manager.add_message_to_cache(
-            chat_id=chat_id,
-            role="user",
-            content=user_msg_content,
-            tokens=estimated_user_tokens
-        )
-        
-        chat_manager.add_message_to_cache(
-            chat_id=chat_id,
-            role="assistant",
-            content=ai_msg_content,
-            tokens=estimated_ai_tokens
-        )
-        
-        logger.info(f"✅ Response generated and cached for {chat_id} ({total_estimated} tokens)")
-        
-    except Exception as e:
-        logger.error(f"❌ Error generating response: {e}", exc_info=True)
-        state["messages"].append(
-            AIMessage(content="I apologize, but I encountered an error. Please try again.")
-        )
-    
-    return state
-
-
 async def save_messages(state: AgentState, config: RunnableConfig) -> AgentState:
     """
     This node is now a NO-OP during normal flow.
@@ -180,10 +103,22 @@ async def save_messages(state: AgentState, config: RunnableConfig) -> AgentState
     """
     
     chat_id = state.get("chat_id")
-    logger.info(f"ℹ️ Messages remain cached for {chat_id} (will save on session end)")
     
-    # Optional: You can add auto-save logic here if needed
-    # For example, save every N messages or every X minutes
+    # Cache AI response if we have one
+    last_message = state["messages"][-1]
+    if isinstance(last_message, AIMessage):
+        # Estimate tokens for caching (this is approximate)
+        ai_content = last_message.content
+        estimated_tokens = len(ai_content.split()) * 1.3  # rough estimate
+        
+        chat_manager.add_message_to_cache(
+            chat_id=chat_id,
+            role="assistant",
+            content=ai_content,
+            tokens=int(estimated_tokens)
+        )
+    
+    logger.info(f"ℹ️ Messages remain cached for {chat_id} (will save on session end)")
     
     return state
 

@@ -13,3 +13,4 @@ class AgentState(TypedDict):
     current_topic: str | None
     total_tokens: int
     session_start_time: float
+    config: Dict[str, Any]

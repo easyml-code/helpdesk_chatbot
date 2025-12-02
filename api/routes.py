@@ -17,7 +17,7 @@ router = APIRouter()
 
 class ChatRequest(BaseModel):
     message: str
-    chat_id: Optional[str] = None  # If None -> create new, if provided -> use existing
+    chat_id: Optional[str] = None
     topic: Optional[str] = None
 
 
@@ -132,16 +132,6 @@ async def chat(
         # Add new user message
         lc_messages.append(HumanMessage(content=request.message))
         
-        initial_state: AgentState = {
-            "messages": lc_messages,
-            "chat_id": chat_id,
-            "session_id": session_id,
-            "user_id": user_id,
-            "current_topic": request.topic,
-            "total_tokens": chat_info.get('total_tokens', 0),
-            "session_start_time": time.time()
-        }
-        
         # Run agent graph
         config = {
             "configurable": {
@@ -149,6 +139,17 @@ async def chat(
                 "access_token": access_token,
                 "refresh_token": refresh_token
             }
+        }
+
+        initial_state: AgentState = {
+            "messages": lc_messages,
+            "chat_id": chat_id,
+            "session_id": session_id,
+            "user_id": user_id,
+            "current_topic": request.topic,
+            "total_tokens": chat_info.get('total_tokens', 0),
+            "session_start_time": time.time(),
+            "config": config["configurable"]
         }
         
         logger.info(f"🤖 Processing message for chat {chat_id}")
