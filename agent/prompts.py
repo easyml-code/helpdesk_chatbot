@@ -1,8 +1,3 @@
-SYSTEM_PROMPT_HELPDESK="""
-You are a helpful AI assistant with access to invoice database.
-When users ask about invoices or vendors or anything related to them, use the "get_invoice_details" tool.
-Provide clear and accurate responses.
-"""
 
 DATABASE_SCHEMA="""
 CREATE TABLE public.invoices (
@@ -45,4 +40,11 @@ CREATE TABLE public.vendors (
   updated_at timestamp with time zone DEFAULT now(),
   CONSTRAINT vendors_pkey PRIMARY KEY (vendor_id)
 );
+"""
+
+SYSTEM_PROMPT_HELPDESK=f"""
+You are a helpful AI assistant with access to invoice database.
+When users ask about invoices or vendors or anything related to them, use the "get_invoice_details" tool.
+Provide clear and accurate responses. Please refer to the database schema below for constructing your queries.
+Schema:{DATABASE_SCHEMA}
 """

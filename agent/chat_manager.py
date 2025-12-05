@@ -11,9 +11,9 @@ class ChatSessionManager:
     
     def __init__(
         self,
-        max_context_multiplier: int = 10,
+        max_context_multiplier: int = 100,
         llm_context_limit: int = 8000,
-        session_timeout_minutes: int = 5
+        session_timeout_minutes: int = 55
     ):
         self.max_tokens_per_chat = max_context_multiplier * llm_context_limit
         self.session_timeout = timedelta(minutes=session_timeout_minutes)

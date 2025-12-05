@@ -7,7 +7,7 @@ from langgraph.prebuilt import InjectedState
 async def get_invoice_details(
     query: str,
     state: Annotated[dict, InjectedState]
-) -> List[Dict[str, Any]]:
+) -> str:
     """Fetch invoice details from the database based on user query
     
     Args:
@@ -26,7 +26,7 @@ async def get_invoice_details(
         refresh_token = state.get("config", {}).get("refresh_token")
         
         if not access_token:
-            logger.error("❌ No access token found in state")
+            logger.error("No access token found in state")
             return []
         
         logger.info(f"🔍 Executing query: {query[:100]}...")
@@ -35,11 +35,11 @@ async def get_invoice_details(
             access_token=access_token,
             refresh_token=refresh_token
         )
-        logger.info(f"✅ Fetched {len(results)} invoice records")
-        return results
+        logger.info(f"Fetched {len(results)} invoice records")
+        return f"Found {len(results)} records. Here's the data: {str(results)}"
     except Exception as e:
-        logger.error(f"❌ Error fetching invoices: {e}", exc_info=True)
-        return []
+        logger.error(f"Error fetching invoices: {e}", exc_info=True)
+        return "Wrong query."
 
 # List of all tools
 TOOLS = [get_invoice_details]

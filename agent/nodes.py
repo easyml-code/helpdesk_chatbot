@@ -3,7 +3,7 @@ from agent.state import AgentState
 from langchain_core.runnables import RunnableConfig
 from agent.llm import get_llm
 from agent.chat_manager import chat_manager
-from agent.prompts import SYSTEM_PROMPT_HELPDESK, DATABASE_SCHEMA
+from agent.prompts import SYSTEM_PROMPT_HELPDESK
 from database.client import run_query
 from logs.log import logger
 from langgraph.prebuilt import ToolNode
@@ -42,14 +42,15 @@ async def generate_response(state: AgentState, config: RunnableConfig) -> AgentS
     
     # Build message list
     full_messages = list(messages)
-    
-    # Add system message on first interaction
-    if len([m for m in messages if isinstance(m, (HumanMessage, AIMessage))]) == 1:
-        system_msg = SystemMessage(
-            content= SYSTEM_PROMPT_HELPDESK + "\n\n" + DATABASE_SCHEMA
+    system_msg = SystemMessage(
+            content= SYSTEM_PROMPT_HELPDESK
         )
-        full_messages = [system_msg] + full_messages
     
+    if len([m for m in messages if isinstance(m, (HumanMessage, AIMessage))]) == 1:
+        full_messages = [system_msg] + full_messages
+    else:
+        full_messages = [system_msg] + full_messages[-4:]
+    print("\n\n\n\n\n FULL MESSAGES SENT TO LLM WITH TOOLS: \n", full_messages, "\n\n\n\n\n")
     try:
         # Get user message
         user_msg_content = ""
@@ -59,17 +60,15 @@ async def generate_response(state: AgentState, config: RunnableConfig) -> AgentS
                 break
         
         # Invoke LLM with tools
-        logger.info(f"🤖 Generating response for chat {chat_id}")
-        response = await llm_with_tools.ainvoke(full_messages, config=config)
-        
+        logger.info(f"Generating response for chat {chat_id}")
+        response = await llm_with_tools.ainvoke(full_messages[-4:], config=config)
+    
         # Track tokens
         metadata = response.response_metadata.get("token_usage", {})
         input_tokens = metadata.get("prompt_tokens", 0) or metadata.get("input_tokens", 0)
         output_tokens = metadata.get("completion_tokens", 0) or metadata.get("output_tokens", 0)
         total_tokens = input_tokens + output_tokens
-        
-        print(f"\nInput: {input_tokens} | Output: {output_tokens} | Total: {total_tokens}\n")
-        
+
         # Add AI response to messages
         state["messages"].append(response)
         state["total_tokens"] = state.get("total_tokens", 0) + total_tokens
@@ -107,18 +106,16 @@ async def save_messages(state: AgentState, config: RunnableConfig) -> AgentState
     # Cache AI response if we have one
     last_message = state["messages"][-1]
     if isinstance(last_message, AIMessage):
-        # Estimate tokens for caching (this is approximate)
         ai_content = last_message.content
-        estimated_tokens = len(ai_content.split()) * 1.3  # rough estimate
         
         chat_manager.add_message_to_cache(
             chat_id=chat_id,
             role="assistant",
             content=ai_content,
-            tokens=int(estimated_tokens)
+            tokens=int(state.get("total_tokens"))
         )
     
-    logger.info(f"ℹ️ Messages remain cached for {chat_id} (will save on session end)")
+    logger.info(f"Messages remain cached for {chat_id} (will save on session end)")
     
     return state
 

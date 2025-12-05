@@ -30,12 +30,12 @@ def save_current_chat():
         try:
             requests.post(
                 f"{API_BASE_URL}/chat/{st.session_state.current_chat_id}/end",
-                params={
-                    "access_token": st.session_state.access_token,
-                    "refresh_token": st.session_state.refresh_token
+                headers={
+                    "Authorization": f"Bearer {st.session_state.access_token}",
+                    "X-Refresh-Token": st.session_state.refresh_token
                 }
             )
-            st.success("💾 Chat saved successfully!")
+            st.success("Chat saved successfully!")
         except Exception as e:
             st.error(f"Error saving chat: {str(e)}")
 
@@ -67,10 +67,9 @@ def load_chat_history():
     try:
         response = requests.get(
             f"{API_BASE_URL}/chat/history",
-            params={
-                "access_token": st.session_state.access_token,
-                "refresh_token": st.session_state.refresh_token,
-                "limit": 50
+            headers={
+                "Authorization": f"Bearer {st.session_state.access_token}",
+                "X-Refresh-Token": st.session_state.refresh_token
             }
         )
         
@@ -92,9 +91,9 @@ def load_chat_messages(chat_id: str):
         
         response = requests.get(
             f"{API_BASE_URL}/chat/{chat_id}/messages",
-            params={
-                "access_token": st.session_state.access_token,
-                "refresh_token": st.session_state.refresh_token
+            headers={
+                "Authorization": f"Bearer {st.session_state.access_token}",
+                "X-Refresh-Token": st.session_state.refresh_token
             }
         )
         
@@ -122,9 +121,9 @@ def send_message(message: str, topic: str = None):
                 "chat_id": st.session_state.current_chat_id,
                 "topic": topic
             },
-            params={
-                "access_token": st.session_state.access_token,
-                "refresh_token": st.session_state.refresh_token
+            headers={
+                "Authorization": f"Bearer {st.session_state.access_token}",
+                "X-Refresh-Token": st.session_state.refresh_token
             }
         )
         
@@ -159,8 +158,8 @@ def start_new_chat():
 
 def main():
     st.set_page_config(
-        page_title="AI Chatbot",
-        page_icon="🤖",
+        page_title="Helpdesk Agent",
+        page_icon="",
         layout="wide"
     )
     
@@ -172,7 +171,7 @@ def main():
     
     # Login screen
     if not st.session_state.authenticated:
-        st.title("🤖 AI Chatbot - Login")
+        st.title("Login")
         
         with st.form("login_form"):
             email = st.text_input("Email")
@@ -187,28 +186,26 @@ def main():
         return
     
     # Main chat interface
-    st.title("🤖 AI Chatbot")
+    st.title("Helpdesk Agent")
     
     # Sidebar - Chat History
     with st.sidebar:
-        st.header("💬 Chat History")
-        
         col1, col2 = st.columns(2)
         with col1:
-            if st.button("🔄 Refresh", use_container_width=True):
+            if st.button("Refresh", use_container_width=True):
                 load_chat_history()
                 st.rerun()
         
         with col2:
-            if st.button("➕ New Chat", use_container_width=True):
+            if st.button("New Chat", use_container_width=True):
                 start_new_chat()
                 load_chat_history()
                 st.rerun()
         
-        if st.button("💾 Save Chat", use_container_width=True):
+        if st.button("Save Chat", use_container_width=True):
             save_current_chat()
         
-        if st.button("🚪 Logout", use_container_width=True):
+        if st.button("Logout", use_container_width=True):
             save_current_chat()
             st.session_state.clear()
             st.rerun()
@@ -235,8 +232,8 @@ def main():
             
             # Chat button
             if st.button(
-                f"{'📌' if is_current else '💬'} {topic[:25]}{'...' if len(topic) > 25 else ''}\n"
-                f"🕒 {date_str} | 💬 {message_count} msgs",
+                f"{topic[:25]}{'...' if len(topic) > 25 else ''}\n"
+                f"{date_str} | {message_count} msgs",
                 key=chat_id,
                 use_container_width=True,
                 type=button_type
@@ -245,14 +242,11 @@ def main():
                     load_chat_messages(chat_id)
                     st.rerun()
     
-    # Main chat area
-    st.header("Chat")
-    
     # Display current chat info
     if st.session_state.current_chat_id:
-        st.caption(f"💬 Chat ID: {st.session_state.current_chat_id[:20]}... | 📝 {len(st.session_state.messages)} messages")
+        st.caption(f"Chat ID: {st.session_state.current_chat_id[:20]}... | {len(st.session_state.messages)} messages")
     else:
-        st.info("✨ Start a new conversation by typing below!")
+        st.info("How may I assist you today?")
     
     # Display messages
     chat_container = st.container()
@@ -278,7 +272,7 @@ def main():
             topic = user_input[:50]  # First 50 chars as topic
         
         # Send message
-        with st.spinner("🤔 Thinking..."):
+        with st.spinner("Thinking..."):
             if send_message(user_input, topic):
                 load_chat_history()  # Refresh sidebar
                 st.rerun()

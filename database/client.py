@@ -82,7 +82,7 @@ async def run_query(
                 user=settings.SUPABASE_USER,
                 password=settings.POSTGRES_PASSWORD,
                 sslmode="require",
-                connect_timeout=10
+                connect_timeout=5
             )
         
             cur = conn.cursor()

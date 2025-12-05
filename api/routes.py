@@ -10,10 +10,12 @@ from logs.log import logger
 from config import settings
 import time
 import jwt
+from fastapi import Depends, Header, Cookie, Request, HTTPException, status
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from database.utils import get_new_tokens
 
-
+security = HTTPBearer(auto_error=False)
 router = APIRouter()
-
 
 class ChatRequest(BaseModel):
     message: str
@@ -39,6 +41,20 @@ class MessageHistoryResponse(BaseModel):
     total: int
 
 
+async def authenticate_user(
+    auth: HTTPAuthorizationCredentials = Depends(security),
+    x_refresh_token: str | None = Header(None, alias="X-Refresh-Token"),
+    refresh_cookie: str | None = Cookie(None, alias="refresh_token"),
+) -> dict:
+    if not auth or not auth.credentials:
+        raise HTTPException(status_code=401, detail="Missing Authorization")
+    refresh_token = x_refresh_token or refresh_cookie
+    if not refresh_token:
+        raise HTTPException(status_code=401, detail="Missing refresh token")
+    
+    return {"access_token": auth.credentials, "refresh_token": refresh_token}
+
+
 async def get_user_from_token(access_token: str) -> str:
     """Extract user ID from JWT token"""
     try:
@@ -53,7 +69,6 @@ async def get_user_from_token(access_token: str) -> str:
     except jwt.InvalidTokenError as e:
         logger.error(f"Invalid token: {e}")
         raise HTTPException(status_code=401, detail="Invalid access token")
-
 
 @router.post("/auth/login")
 async def login(email: str, password: str):
@@ -74,14 +89,18 @@ async def login(email: str, password: str):
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(
-    request: ChatRequest,
-    access_token: str,
-    refresh_token: str
+    request: ChatRequest,tokens: dict = Depends(authenticate_user)
 ):
-    """Send message and get AI response"""
-    
+    access_token = tokens["access_token"]
+    refresh_token = tokens["refresh_token"]
+
     try:
-        # Get user ID from token
+        # try:
+        #     # Verify tokens
+        #     user_id = await get_user_from_token(access_token)
+        # except:
+        #     access_token,  = await get_new_tokens(refresh_token=refresh_token)
+        # # Get user ID from token
         user_id = await get_user_from_token(access_token)
         
         # Determine if new chat or existing
@@ -174,10 +193,10 @@ async def chat(
 async def switch_chat(
     old_chat_id: Optional[str],
     new_chat_id: str,
-    access_token: str,
-    refresh_token: str
+    tokens: dict = Depends(authenticate_user)
 ):
-    """Switch from one chat to another (saves old, loads new)"""
+    access_token = tokens["access_token"]
+    refresh_token = tokens["refresh_token"]
     
     try:
         user_id = await get_user_from_token(access_token)
@@ -202,13 +221,13 @@ async def switch_chat(
 
 
 @router.get("/chat/history", response_model=ChatHistoryResponse)
-async def get_chat_history(
-    access_token: str,
-    refresh_token: str,
-    limit: int = 50
+async def get_chat_history(limit: int = 50,
+    tokens: dict = Depends(authenticate_user)
 ):
     """Get all chats for the authenticated user (metadata only)"""
-    
+    access_token = tokens["access_token"]
+    refresh_token = tokens["refresh_token"]
+
     try:
         user_id = await get_user_from_token(access_token)
         
@@ -232,10 +251,12 @@ async def get_chat_history(
 @router.get("/chat/{chat_id}/messages", response_model=MessageHistoryResponse)
 async def get_chat_messages(
     chat_id: str,
-    access_token: str,
-    refresh_token: str
+    tokens: dict = Depends(authenticate_user)
 ):
+    
     """Get messages for a specific chat (from cache or DB)"""
+    access_token = tokens["access_token"]
+    refresh_token = tokens["refresh_token"]
     
     try:
         user_id = await get_user_from_token(access_token)
@@ -273,10 +294,13 @@ async def get_chat_messages(
 @router.post("/chat/{chat_id}/end")
 async def end_chat_session(
     chat_id: str,
-    access_token: str,
-    refresh_token: str
+    tokens: dict = Depends(authenticate_user)
 ):
+    
     """End session and save all cached messages"""
+    access_token = tokens["access_token"]
+    refresh_token = tokens["refresh_token"]
+
     
     try:
         await chat_manager.end_session(
@@ -293,14 +317,12 @@ async def end_chat_session(
 
 @router.post("/query")
 async def run_sql_query(
-    query: str
+    query: str,
+    tokens: dict = Depends(authenticate_user)
 ):
     """Run arbitrary SQL query against the database"""
     from database.client import run_query
-    access_token, refresh_token = await get_access_token(
-        email="vikram.dev@pwc.com",
-        password="Test@123"
-    )
+    access_token, refresh_token = tokens["access_token"], tokens["refresh_token"]
 
     try:
         results = await run_query(
